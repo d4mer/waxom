@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/d4mer/waxom/issues"
   },
-  "homepage": "https://github.com/d4mer/waxom#readme"
+  "homepage": "https://github.com/d4mer/waxom#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0"
+  }
 }
