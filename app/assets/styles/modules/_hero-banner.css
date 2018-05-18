@@ -1,7 +1,11 @@
 .hero-banner {
 
-}
 
-__title {
-  size: 1.875rem;
+  &__text-content {
+    position: relative;
+    top
+  }
+  &__title {
+    font-size: 1rem;
+  }
 }
