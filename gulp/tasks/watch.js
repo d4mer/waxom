@@ -22,6 +22,6 @@ gulp.task('watch', function() {
 
 //this inserts css from the styles folder into the  style.css file in the temp folder
 gulp.task('insertCss', ['styles'], function() {
-  return gulp.src('./app/temp/styles/style.css')
+  return gulp.src('./app/temp/styles/styles.css')
   .pipe(browserSync.stream());
 })
