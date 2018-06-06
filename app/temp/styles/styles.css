@@ -342,7 +342,10 @@ template {
 }
 
 body {
-  color: #fff
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -351,13 +354,25 @@ img {
 }
 
 .hero-banner {
+  position: relative;
+}
 
-
-  &__text-content {
-    position: relative;
-    
+.hero-banner__image {
+    display: block;
   }
-  &__title {
+
+.hero-banner__text-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+
+  }
+
+.hero-banner__title {
+    font-weight: 300;
     font-size: 1rem;
   }
-}
