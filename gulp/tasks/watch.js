@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-watch = require('gulp-watch')
+watch = require('gulp-watch'),
 browserSync = require('browser-sync').create();
 
 gulp.task('watch', function() {
@@ -18,10 +18,10 @@ gulp.task('watch', function() {
   watch('./app/assets/styles/**/*.css', function() {
     gulp.start('insertCss');
   })
-
 })
+
 //this inserts css from the styles folder into the  style.css file in the temp folder
 gulp.task('insertCss', ['styles'], function() {
-  return gulp.src('./app/temp/styles/styles.css')
+  return gulp.src('./app/temp/styles/style.css')
   .pipe(browserSync.stream());
 })

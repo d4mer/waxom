@@ -1,11 +1,22 @@
 .hero-banner {
+  position: relative;
 
+  &__image {
+    display: block;
+  }
 
   &__text-content {
-    position: relative;
-    top
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+
   }
+
   &__title {
+    font-weight: 300;
     font-size: 1rem;
   }
 }
