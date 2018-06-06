@@ -1,5 +1,8 @@
 body {
-  color: #fff
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
