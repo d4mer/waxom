@@ -1,0 +1,10 @@
+.btn {
+  background-color: $mainBrown;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  display: inline-block;
+  border-radius: 5px;
+  border-bottom: 3px solid rgb(115 99 88);
+  margin: 1.8rem;
+}

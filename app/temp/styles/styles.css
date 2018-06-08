@@ -344,7 +344,7 @@ template {
 body {
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -355,10 +355,14 @@ img {
 
 .hero-banner {
   position: relative;
+  max-height: 512px;
+
 }
 
 .hero-banner__image {
     display: block;
+    -webkit-filter: grayscale(60%) /*opacity(70%)*/;
+            filter: grayscale(60%) /*opacity(70%)*/;
   }
 
 .hero-banner__text-content {
@@ -373,6 +377,46 @@ img {
   }
 
 .hero-banner__title {
-    font-weight: 300;
-    font-size: 1rem;
+    font-weight: 900;
+    font-size: 3.125rem;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    letter-spacing: -1.5px;
+    margin: 5px;
   }
+
+.hero-banner__subtitle {
+    font-weight: 500;
+    font-size: 2.1875rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    letter-spacing: -1px;
+    margin: 5px;
+  }
+
+.hero-banner__description {
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    letter-spacing: -1px;
+    max-width: 38.125rem;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.top-menu {
+  position: absolute;
+}
+
+.btn {
+  background-color: rgb(153	134	118);
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  display: inline-block;
+  border-radius: 5px;
+  border-bottom: 3px solid rgb(115 99 88);
+  margin: 1.8rem;
+}

@@ -1,8 +1,10 @@
 .hero-banner {
   position: relative;
+  max-height: 512px;
 
   &__image {
     display: block;
+    filter: grayscale(60%) /*opacity(70%)*/;
   }
 
   &__text-content {
@@ -16,7 +18,33 @@
   }
 
   &__title {
-    font-weight: 300;
-    font-size: 1rem;
+    font-weight: 900;
+    font-size: 3.125rem;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    letter-spacing: -1.5px;
+    margin: 5px;
   }
+
+  &__subtitle {
+    font-weight: 500;
+    font-size: 2.1875rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    letter-spacing: -1px;
+    margin: 5px;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    letter-spacing: -1px;
+    max-width: 38.125rem;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
