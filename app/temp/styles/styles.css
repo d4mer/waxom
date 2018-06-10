@@ -355,7 +355,7 @@ img {
 
 .hero-banner {
   position: relative;
-  max-height: 512px;
+  max-height: 1024px;
 
 }
 
@@ -378,25 +378,39 @@ img {
 
 .hero-banner__title {
     font-weight: 900;
-    font-size: 3.125rem;
+    font-size: 1.8rem;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     letter-spacing: -1.5px;
     margin: 5px;
   }
 
+@media (min-width: 530px) {
+
+.hero-banner__title {
+      font-size: 3.125rem
+  }
+    }
+
 .hero-banner__subtitle {
     font-weight: 500;
-    font-size: 2.1875rem;
+    font-size: 1.2rem;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     letter-spacing: -1px;
     margin: 5px;
   }
 
+@media (min-width: 530px) {
+
+.hero-banner__subtitle {
+      font-size: 2.1875rem
+  }
+    }
+
 .hero-banner__description {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: .6rem;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     letter-spacing: -1px;
@@ -405,6 +419,13 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
+@media (min-width: 530px) {
+
+.hero-banner__description {
+      font-size: 1rem
+  }
+    }
 
 .top-menu {
   position: absolute;
