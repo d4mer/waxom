@@ -359,10 +359,12 @@ img {
 
 }
 
+/*overflow: hidden;*/
+
 .hero-banner__image {
     display: block;
-    -webkit-filter: grayscale(60%) /*opacity(70%)*/;
-            filter: grayscale(60%) /*opacity(70%)*/;
+    -webkit-filter: grayscale(70%) /*opacity(70%)*/;
+            filter: grayscale(70%) /*opacity(70%)*/;
   }
 
 .hero-banner__text-content {
@@ -378,7 +380,7 @@ img {
 
 .hero-banner__title {
     font-weight: 900;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     letter-spacing: -1.5px;
@@ -388,13 +390,27 @@ img {
 @media (min-width: 530px) {
 
 .hero-banner__title {
+      font-size: 1.8rem
+  }
+  }
+
+@media (min-width: 768px) {
+
+.hero-banner__title {
+      font-size: 2.5rem
+  }
+  }
+
+@media (min-width: 1200px) {
+
+.hero-banner__title {
       font-size: 3.125rem
   }
-    }
+  }
 
 .hero-banner__subtitle {
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: .9rem;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     letter-spacing: -1px;
@@ -404,9 +420,23 @@ img {
 @media (min-width: 530px) {
 
 .hero-banner__subtitle {
+      font-size: 1.4rem
+  }
+  }
+
+@media (min-width: 768px) {
+
+.hero-banner__subtitle {
+      font-size: 1.8rem
+  }
+  }
+
+@media (min-width: 1200px) {
+
+.hero-banner__subtitle {
       font-size: 2.1875rem
   }
-    }
+  }
 
 .hero-banner__description {
     font-weight: 400;
@@ -423,9 +453,24 @@ img {
 @media (min-width: 530px) {
 
 .hero-banner__description {
+      font-size: .8rem;
+      max-width: 30rem
+  }
+  }
+
+@media (min-width: 768px) {
+
+.hero-banner__description {
       font-size: 1rem
   }
-    }
+  }
+
+@media (min-width: 1200px) {
+
+.hero-banner__description {
+      font-size: 1.2rem
+  }
+  }
 
 .top-menu {
   position: absolute;
@@ -435,9 +480,39 @@ img {
   background-color: rgb(153	134	118);
   color: #fff;
   text-decoration: none;
-  padding: 1rem 2.5rem;
+  font-size: .6rem;
+  padding: .4rem 1.2rem;
   display: inline-block;
   border-radius: 5px;
-  border-bottom: 3px solid rgb(115 99 88);
-  margin: 1.8rem;
+  border-bottom: 1.5px solid rgb(115 99 88);
+  margin: 0rem;
 }
+
+@media (min-width: 530px) {
+
+.btn {
+    font-size: .8rem;
+    margin: .8rem;
+    padding: .6rem 1.8rem;
+    border-bottom: 2px solid rgb(115 99 88)
+}
+  }
+
+@media (min-width: 768px) {
+
+.btn {
+    font-size: 1.2rem;
+    padding: .8rem 2.1rem;
+    margin: 2.5rem
+}
+  }
+
+@media (min-width: 1200px) {
+
+.btn {
+    font-size: 1.8rem;
+    padding: 1rem 2.5rem;
+    margin: 3.125rem;
+    border-bottom: 3px solid rgb(115 99 88)
+}
+  }
