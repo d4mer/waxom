@@ -1,6 +1,6 @@
 .hero-banner {
   position: relative;
-  max-height: 512px;
+  max-height: 1024px;
 
   &__image {
     display: block;
@@ -19,25 +19,33 @@
 
   &__title {
     font-weight: 900;
-    font-size: 3.125rem;
+    font-size: 1.8rem;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     letter-spacing: -1.5px;
     margin: 5px;
+
+    @media (min-width: 530px) {
+      font-size: 3.125rem;
+    }
   }
 
   &__subtitle {
     font-weight: 500;
-    font-size: 2.1875rem;
+    font-size: 1.2rem;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     letter-spacing: -1px;
     margin: 5px;
+
+    @media (min-width: 530px) {
+      font-size: 2.1875rem;
+    }
   }
 
   &__description {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: .6rem;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     letter-spacing: -1px;
@@ -45,6 +53,10 @@
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+
+    @media (min-width: 530px) {
+      font-size: 1rem;
+    }
   }
 
 }
