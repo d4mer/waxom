@@ -2,9 +2,30 @@
   background-color: $mainBrown;
   color: #fff;
   text-decoration: none;
-  padding: 1rem 2.5rem;
+  font-size: .6rem;
+  padding: .4rem 1.2rem;
   display: inline-block;
   border-radius: 5px;
-  border-bottom: 3px solid rgb(115 99 88);
-  margin: 1.8rem;
+  border-bottom: 1.5px solid rgb(115 99 88);
+  margin: 0rem;
+
+  @mixin atSmall {
+    font-size: .8rem;
+    margin: .8rem;
+    padding: .6rem 1.8rem;
+    border-bottom: 2px solid rgb(115 99 88);
+  }
+
+  @mixin atMedium {
+    font-size: 1.2rem;
+    padding: .8rem 2.1rem;
+    margin: 2.5rem;
+  }
+
+  @mixin atRetina {
+    font-size: 1.8rem;
+    padding: 1rem 2.5rem;
+    margin: 3.125rem;
+    border-bottom: 3px solid rgb(115 99 88);
+  }
 }
