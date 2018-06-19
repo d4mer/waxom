@@ -1,0 +1,40 @@
+.service-item {
+
+  a {
+    text-decoration: none;
+  }
+
+  &__title {
+    color: $mainBrown;
+    font-size: 1.375rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  &__subtitle {
+    color: $textGrey;
+    font-size: .75rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  &__title-icon {
+    display: block;
+    width: 2.625rem;
+    height: 2.625rem;
+    stroke: $mainBrown;
+    margin: auto;
+  }
+
+  hr {
+    display: block;
+    width: 4.375rem;
+    height: 3px;
+    border: 0 none;
+    border-top: 2px solid $mainBrown;
+    /*border-bottom: 1px solid $mainBrown;*/
+    margin-top: 1.875rem;
+    padding: 0;
+}
+
+}
