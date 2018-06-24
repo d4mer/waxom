@@ -28,4 +28,11 @@
     margin: 3.125rem;
     border-bottom: 3px solid rgb(115 99 88);
   }
+
+  &__small {
+    font-size: .875rem;
+    margin: .8rem;
+    padding: .6rem 1.8rem;
+    border-bottom: 2px solid rgb(115 99 88);
+  }
 }

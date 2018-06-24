@@ -527,6 +527,13 @@ img {
 }
   }
 
+.btn__small {
+    font-size: .875rem;
+    margin: .8rem;
+    padding: .6rem 1.8rem;
+    border-bottom: 2px solid rgb(115 99 88);
+  }
+
 .service-item a {
     text-decoration: none;
   }
@@ -623,9 +630,35 @@ img {
     display: block;
     width: 100%;
     max-height: 150px;
-    background-color: rgb(76 51 40);
+    background-image: linear-gradient(to right, rgb(33 27 25), rgb(76 51 40));
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+.showcase__cta-title {
+    font-weight: 400;
+    font-size: 1.625rem;
+    margin-bottom: 0;
+  }
+
+.showcase__cta-subtitle {
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-top: 0;
+    color: rgb(64 64 64);
+  }
+
+.showcase__cta-brown {
+    color: rgb(153	134	118);
+  }
+
+.showcase__btn {
+    /*display: inline;*/
+    float: right;
+  }
+
+.showcase__text {
+    display: inline;
   }
 
 /* @import "modules/_section-title"; */

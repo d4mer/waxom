@@ -13,8 +13,34 @@
     display: block;
     width: 100%;
     max-height: 150px;
-    background-color: $gradLBrown;
+    background-image: linear-gradient(to right, $gradDBrown, $gradLBrown);
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  &__cta-title {
+    font-weight: 400;
+    font-size: 1.625rem;
+    margin-bottom: 0;
+  }
+
+  &__cta-subtitle {
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-top: 0;
+    color: $textDarkGrey;
+  }
+
+  &__cta-brown {
+    color: $mainBrown;
+  }
+
+  &__btn {
+    /*display: inline;*/
+    float: right;
+  }
+
+  &__text {
+    display: inline;
   }
 }
